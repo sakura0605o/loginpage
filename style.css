@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Lexend Deca';
+}
+body{
+    background-image: linear-gradient(to right, #92fe9d 0%, #00c9ff 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.content{
+    background-color: #f0f8ff23; 
+    backdrop-filter: hue-rotate(2deg);
+    backdrop-filter: brightness(95%);   
+    width: 500px;
+    padding: 30px;
+    border-radius: 30px;
+    border: #F0F8FF 0.5px solid;
+}
+.title{
+    font-size: 30px;
+    font-weight: 900;
+    color: aliceblue;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.input{
+    background-color: transparent;
+    width: 100%;
+    display:flex ;
+    align-items: center;
+    margin-bottom: 30px;
+    padding: 5px 15px;
+    border: #F0F8FF solid 2px;
+    border-radius: 25px;
+}
+.input input{
+    background: transparent;
+    padding: 10px 5px;
+    width: 100%;
+    border: none;
+    outline: none;
+    color: #F0F8FF;
+}
+.input input::placeholder{
+    color: #F0F8FF;
+}
+.input i{
+    height: 100%;
+    margin-right: 5px;
+    color: #F0F8FF;
+}
+.option{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    width: 100%;
+    height: auto;
+}
+.remember input{
+    margin-right: 2px;
+}
+.remember label{
+    color: #F0F8FF;
+}
+.forget a{
+    text-decoration: none;
+    color: #F0F8FF;    
+}
+.forget a:hover{
+    text-decoration: underline;
+    font-weight: 600;  
+}
+.register{
+    text-align: center;
+    color: #F0F8FF;
+    margin-bottom: 30px;
+}
+.register a{
+    text-decoration: none;
+    margin-left: 5px;
+    color: #F0F8FF;    
+}
+.register a:hover{
+    text-decoration: underline;
+    font-weight: 600;
+}
+.loginbutton{
+    display: flex;
+    justify-content: center;
+}
+.loginbutton button{
+    width: 50px;
+    height: 50px;
+    border-radius: 30px;
+    border: #F0F8FF 3px solid;
+    background-color: transparent;
+}
+.loginbutton button i{
+    width: 100%;
+    height: 100%;
+    padding: 10px 0;
+    background-color: transparent;
+    color: #F0F8FF;
+}
+.loginbutton button:hover{
+    background-color: #f0f8ffe6;
+    transition: 0.5s;
+}
+.loginbutton button i:hover{
+    color: #00c9ff;    
+    transition: 0.5s;
+}
