@@ -16,15 +16,16 @@ body{
 }
 .content{
     background-color: #f0f8ff23; 
-    backdrop-filter: hue-rotate(2deg);
-    backdrop-filter: brightness(95%);   
-    width: 500px;
-    padding: 30px;
+    backdrop-filter: hue-rotate(2deg); /*CSS色彩反轉*/
+    backdrop-filter: brightness(95%);   /*CSS明暗度*/
+    width: 30rem;
+    padding: 2.5rem;
     border-radius: 30px;
     border: #F0F8FF 0.5px solid;
+    margin: 0 1rem;
 }
 .title{
-    font-size: 30px;
+    font-size: 2rem;
     font-weight: 900;
     color: aliceblue;
     text-align: center;
@@ -68,14 +69,16 @@ body{
 }
 .remember label{
     color: #F0F8FF;
+    font-size: 1rem;
 }
 .forget a{
     text-decoration: none;
-    color: #F0F8FF;    
+    color: #F0F8FF;
+    font-size: 1rem;    
 }
 .forget a:hover{
     text-decoration: underline;
-    font-weight: 600;  
+    font-weight: 500;  
 }
 .register{
     text-align: center;
@@ -85,11 +88,12 @@ body{
 .register a{
     text-decoration: none;
     margin-left: 5px;
-    color: #F0F8FF;    
+    color: #F0F8FF;
+    font-size: 1rem;    
 }
 .register a:hover{
     text-decoration: underline;
-    font-weight: 600;
+    font-weight: 500;
 }
 .loginbutton{
     display: flex;
@@ -112,6 +116,7 @@ body{
 .loginbutton button:hover{
     background-color: #f0f8ffe6;
     transition: 0.5s;
+    cursor: pointer;
 }
 .loginbutton button i:hover{
     color: #00c9ff;    
