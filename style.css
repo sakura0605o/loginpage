@@ -8,11 +8,19 @@
     font-family: 'Lexend Deca';
 }
 body{
-    background-image: linear-gradient(to right, #92fe9d 0%, #00c9ff 100%);
+    background-image: linear-gradient(15deg, #13547a 0%, #80d0c7 100%);
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.logo img{
+    width: 30px;
 }
 .content{
     background-color: #f0f8ff23; 
